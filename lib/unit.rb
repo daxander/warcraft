@@ -8,7 +8,7 @@ class Unit
   end
 
   def attack!(enemy)
-    enemy.damage(@attack_power)
+    enemy.damage(attack_power)
   end
 
   def damage(attack_power)
